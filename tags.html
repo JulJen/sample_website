@@ -7,13 +7,13 @@
   <body>
     <!-- much here to be styled, will do so in last section -->
     <header>
-      <h1><span>Important </span>HTML Tags</h1>
-    </header>
+    <h1><span>Important </span>HTML Tags</h1>
 
-    <a href="https://www.flickr.com/photos/jdhancock/3814523970" target="_blank"
-    style="text-decoration: none;">
-        <img src="images/storm_trooper_tagged.jpg" alt="Tagged Storm Trooper">
+    <a href="https://www.flickr.com/photos/jdhancock/3814523970"
+    target="_blank" style="text-decoration: none;">
+    <img src="images/storm_trooper_tagged.jpg" alt="Tagged Storm Trooper">
     </a>
+   </header>
 
     <div>
       <p>
@@ -26,7 +26,7 @@
 
       <p>
         The tables below don't include all HTML tags, but they do list many of
-        the most <span>important</span> ones.
+        the most important ones.
       </p>
     </div>
 
@@ -50,9 +50,9 @@
           <td>include a paragraph of text</td>
         </tr>
         <tr>
-        <td><code>table</code></td>
-        <td>table</td>
-        <td>include a table</td>
+          <td><code>table</code></td>
+          <td>table</td>
+          <td>include a table</td>
         </tr>
         <tr>
           <td><code>tr</code></td>
@@ -69,13 +69,33 @@
           <td>table data</td>
           <td>include a table data cell</td>
         </tr>
+        <tr>
+          <td><code>div</code></td>
+          <td>div</td>
+          <td>generic container for flow content, enables grouping of sections of elements together and formatting them with CSS</td>
+        </tr>
+        <tr>
+          <td><code>header</code></td>
+          <td>header</td>
+          <td>labels the active view, it can contain top-level navigation and inputs for the active view</td>
+        </tr>
+        <tr>
+          <td><code>ol</code></td>
+          <td>ordered list</td>
+          <td>uses different schemes of numbers to list your items</td>
+        </tr>
+        <tr>
+          <td><code>ul</code></td>
+          <td>unordered list</td>
+          <td>lists items using plain bullets by default</td>
+        </tr>
       </table>
     </div>
 
     <div>
       <h2>Inline Elements</h2>
 
-     <table>
+      <table>
         <tr>
           <th>Tag</th>
           <th>Name</th>
@@ -132,8 +152,45 @@
           </td>
           <td><code>table</code></td>
         </tr>
-     </table>
-   </div>
-
+        <tr>
+          <td><code>span</code></td>
+          <td>span</td>
+          <td>a generic inline container for phrasing content, used to group elements for styling purposes or because they share attribute values</td>
+          <td>
+            <code>
+               This is the color &lt;span style="color:blue">&gt;blue&lt;/span&gt;
+            </code>
+          </td>
+          <td><code>This is the color <span style="color:blue">blue</span></code></td>
+        </tr>
+        <tr>
+          <td><code>li</code></td>
+          <td>list</td>
+          <td>defines a list item; in ordered lists &lt;ol&gt;, unordered lists &lt;ul&gt;, and in menu lists &lt;menu&gt;</td>
+          <td>
+            <code>
+               &lt;ol&gt;
+               &lt;li&gt;Monday&lt;/li&gt;
+               &lt;li&gt;Tuesday&lt;/li&gt;
+               &lt;li&gt;Wednesday&lt;/li&gt;
+               &lt;li&gt;Thursday&lt;/li&gt;
+               &lt;li&gt;Friday&lt;/li&gt;
+               &lt;li&gt;Saturday&lt;/li&gt;
+               &lt;li&gt;Sunday&lt;/li&gt;
+               &lt;/ol&gt;
+            </code>
+          </td>
+          <td>
+            <code>
+              <ol>
+                <li>Monday</li>
+                <li>Tuesday</li>
+                <li>Wednesday</li>
+                <li>Thursday</li>
+                <li>Friday</li>
+                <li>Saturday</li>
+                <li>Sunday</li>
+            </ol>
+          </code>
   </body>
 </html>
